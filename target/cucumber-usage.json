@@ -1,0 +1,56 @@
+[
+  {
+    "source": "^Launching the browser$",
+    "steps": [
+      {
+        "name": "Launching the browser",
+        "aggregatedDurations": {
+          "average": 15.9132822,
+          "median": 15.9132822
+        },
+        "durations": [
+          {
+            "duration": 15.9132822,
+            "location": "TC1.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user should able to enter \"([^\"]*)\" in search textbox$",
+    "steps": [
+      {
+        "name": "user should able to enter \"PALO IT - QA\" in search textbox",
+        "aggregatedDurations": {
+          "average": 17.7609798,
+          "median": 17.7609798
+        },
+        "durations": [
+          {
+            "duration": 17.7609798,
+            "location": "TC1.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^close browser$",
+    "steps": [
+      {
+        "name": "close browser",
+        "aggregatedDurations": {
+          "average": 12.1322871,
+          "median": 12.1322871
+        },
+        "durations": [
+          {
+            "duration": 12.1322871,
+            "location": "TC1.feature:11"
+          }
+        ]
+      }
+    ]
+  }
+]

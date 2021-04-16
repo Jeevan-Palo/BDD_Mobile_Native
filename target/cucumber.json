@@ -1,0 +1,102 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 4,
+            "value": "#--------------------------------  Scenario Flow 1 --------------------------------------------------#"
+          }
+        ],
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15913282200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Launching the browser",
+            "match": {
+              "location": "CommonSteps.launching_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Enter a text in Native androip app",
+        "description": "",
+        "id": "tc1;enter-a-text-in-native-androip-app",
+        "after": [
+          {
+            "result": {
+              "duration": 191300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17760979800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should able to enter \"PALO IT - QA\" in search textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PALO IT - QA",
+                  "offset": 27
+                }
+              ],
+              "location": "SearchProduct.user_should_able_to_enter_in_search_textbox(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12132287100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "close browser",
+            "match": {
+              "location": "CommonSteps.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@TC1"
+          }
+        ]
+      }
+    ],
+    "name": "TC1",
+    "description": "",
+    "id": "tc1",
+    "keyword": "Feature",
+    "uri": "TC1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Palo-IT"
+      }
+    ]
+  }
+]

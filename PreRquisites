@@ -1,0 +1,11 @@
+Chnages required in project :
+
+--> Project developed in Maven structure. So import in required format.
+--> mention your sdk path, if in case you are running mobile cases. If not, no need to change.
+
+Requirements:
+
+--> Need JDK latest version
+--> Eclipse
+--> Maven should be installed
+--> Add cucumber gherkin editer pulgin from  eclipse market place

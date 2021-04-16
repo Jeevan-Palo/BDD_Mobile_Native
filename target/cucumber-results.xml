@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="45.80674">
+<testcase classname="TC1" name="Enter a text in Native androip app" time="45.80674">
+<system-out><![CDATA[Given Launching the browser.................................................passed
+When user should able to enter "PALO IT - QA" in search textbox.............passed
+And close browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
